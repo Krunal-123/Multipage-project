@@ -1,0 +1,77 @@
+body{
+    padding: 0;
+    margin: 0 auto;
+    width: 90%;
+    font-family: "IBM Plex Sans", sans-serif;
+    box-sizing: border-box;
+    background-color: #f0f4f5;
+}
+/* header start */
+header{
+    margin: 30px 0px;
+    nav{
+        display: flex;
+        justify-content: space-between;
+        .logo{
+            padding: 0.5rem 0.9rem;
+        }
+        ul{
+            display: flex;
+            li{
+                padding: 0.5rem 1.5rem;
+                font-size: larger;
+                list-style: none;
+                font-weight:bold;
+                a{
+                text-decoration: none;
+                color: black;
+                }
+                a:hover{
+                    color: #22bc7e;
+                 }
+            }
+         
+        }
+     }
+}
+ /* header ends */
+
+ /* main section start */
+main{
+    .container{
+        width: 50%;
+        margin: 5rem auto;
+        form{
+            width: 50%;
+            padding: 30px;
+            margin: auto auto;
+            border: 5px solid gray;
+            border-radius: 10px;
+            h2{
+                text-align: center;
+                font-size: xx-large;
+            }
+            label{
+                font-weight: bolder;
+            }
+            textarea{
+                width: 100%;
+                border: 0px;
+            }
+            input{
+                width: 100%;
+                padding: 10px;
+                border-radius: 5px;
+                border: 0px;
+            }
+            #btn{
+                padding: 10px;
+                background-color: #22bc7e;
+                color: #fff;
+                font-weight: bolder;
+                font-size: large;
+            }
+        }
+    }
+}
+ /* main section ends */
